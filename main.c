@@ -350,7 +350,7 @@ int main()
             break;
         case 2:
             system("cls");
-            printf("Daftar Kontak");
+            listContacts();
             break;
         case 3:
             system("cls");
@@ -358,7 +358,7 @@ int main()
             break;
         case 4:
             system("cls");
-            printf("Hapus Kontak");
+            deleteContact();
             break;
         case 5:
             system("cls");
